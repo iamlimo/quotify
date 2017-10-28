@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Quotify </title>
+        <!--<link rel="stylesheet" href="style.css">-->
+        <style>
+            #result{
+        background: #000;
+        width: 300px;
+        height: 300px;
+        color:white;
+        font-family: sans-serif;
+        font-size: 30px;
+        text-align: center;
+        padding: 45px;
+        }
+            </style>
+    </head>
+<body>
+    <div class="container">
+    <input id="textInput" type="text" placeholder="Input your quote" >
+    <button id="submit">Submit</button>
+    <button id="clear">Reset</button>
+    <div id="result"></div>
+
+    <div class="button">
+        <h2 id="backgroundTitle"> Change Background Colour</h2>
+        <button id="black" class="colors" value="#000"><p> Default</p></button>
+        <button id="purple" value="#9932CC" class="colors"> <p> Purple</p></button>
+        <button id="red" value="#ff0100" class="colors"><p>  Red</p></button>
+        <button id="green" value="#3CB371" class="colors"><p> Green</p></button>
+        <button id="orange" value="#FF8C00" class="colors"><p> Orange</p></button>
+        <button id="blue" value="#7B68EE" class="colors"><p>Blue</p></button>
+        </div>
+        
+    
+<a href="#"  id="down" download="image.png">download</a>
+<button id="save">Save Image</button>
+<div id="out"></div>
+    </div>
+    <script src="jquery-1.11.0.js"></script>
+    <script src="html2canvas.js"></script>
+    <script src="script.js"></script>
+    <script src="download.js"></script>
+    <script src="canvas2image.js"></script>
+    
+</body>
+</html>
